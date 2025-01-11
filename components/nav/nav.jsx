@@ -39,7 +39,7 @@ const Navbar = () => {
           { label: "Our Mission", id: "mission" },
           { label: "The Plan", id: "plan" },
           { label: "Resources", id: "resources" },
-          { label: "About Us", id: "about" },
+          { label: "Name and Logo Story", id: "about" },
           { label: "Contact Us", id: "contact" },
         ].map(({ label, id }, index) => (
           <li key={index} onClick={() => handleNavClick(id)}>

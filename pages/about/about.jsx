@@ -78,7 +78,7 @@ function About() {
                 color: "var(--primary-color)",
               }}
             >
-              <h2 style={{color: "white"}}>Kintsugi means golden repair</h2>
+              <h2>Kintsugi means golden repair</h2>
               <br />
               <p>
                 It is a Japanese art form of decorating repair seams of broken

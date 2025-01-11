@@ -12,6 +12,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 150px;
 }
 
 /* Flexbox for the image row */
@@ -19,9 +20,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 0px;
   background-color: var(--background-color);
-  padding: 40px;
+  padding-top: 40px;
+
 }
 
 /* Styling for each image in the row */
@@ -97,6 +99,9 @@
   margin-top: 40px;
 }
 
+.subtitle {
+  color: var(--secondary-color);
+}
 /* Overlay styling (if used for page overlay effects) */
 .overlayImage {
   width: 50%; /* Adjust width as needed */
@@ -183,4 +188,59 @@
   flex-direction: column;
   height: 100%;
   width: 100%;
+}
+
+
+/* Popup Container */
+.popupContainer {
+  position: fixed;
+  top: 10%;
+  left: 10%;
+  width: 80vw;
+  height: 80vh;
+  background: #ff0800 ;
+  color: var(--primary-color);
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  padding: 20px;
+}
+
+/* Title Styling */
+.popupTitle {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+}
+
+/* Content Styling */
+.popupContent {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin: 0 30px;
+  text-align: center;
+  flex: 1;
+  color: white;
+}
+
+/* Close Button */
+.closeButton {
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: background 0.3s ease;
+}
+
+.closeButton:hover {
+  background: var(--secondary-color);
 }

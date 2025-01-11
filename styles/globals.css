@@ -341,15 +341,15 @@ button:hover {
   flex: 1; /* Allow the text to grow and take up available space */
 }
 
-.description .whiteText {
+.whiteText {
   color: var(--foreground-color);
 }
 
-.description .blueText {
+.blueText {
   color: var(--primary-color);
 }
 
-.description .yellowText {
+.yellowText {
   color: var(--secondary-color);
 }
 

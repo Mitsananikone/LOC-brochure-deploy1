@@ -25,5 +25,6 @@
 .title {
   font-size: 2rem; /* Adjust the title size */
   color: var(--primary-color);
+  
   margin: 0; /* Remove default margin for h1 */
 }
