@@ -75,7 +75,7 @@ function About() {
                 zIndex: 1,
                 textAlign: "left",
                 transform: "skew(20deg)",
-                color: "var(--primary-color)",
+                color: "var(--foreground-color)",
               }}
             >
               <h2>Kintsugi means golden repair</h2>
